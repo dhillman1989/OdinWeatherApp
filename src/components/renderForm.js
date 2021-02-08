@@ -4,7 +4,7 @@ const renderForm = () => {
   const form = document.createElement("form");
   form.classList.add("searchForm");
   form.innerHTML =
-    "<input class='searchForm__input' type='text' /><button>Submit</button><div class='report'></div>";
+    "<label for='searchForm'>Check the current weather (just provide a city name):</label> <input id='searchForm' class='searchForm__input' type='text' /><button>Submit</button><div class='report'></div>";
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
