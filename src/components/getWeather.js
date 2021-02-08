@@ -9,7 +9,7 @@ const getWeather = (query) => {
   report.innerText = "Loading...";
 
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`,
+    `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`,
     {
       mode: "cors",
     }
