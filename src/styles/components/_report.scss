@@ -1,9 +1,13 @@
 .report {
   margin: 0 auto;
   text-align: center;
-  width: 60%;
 
   &__details {
     list-style-type: none;
+  }
+
+  & img {
+    max-height: 300px;
+    max-width: 400px;
   }
 }
