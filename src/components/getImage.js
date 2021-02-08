@@ -4,7 +4,7 @@ const getImage = (weather) => {
   const report = document.querySelector(".report");
   const image = document.createElement("img");
   fetch(
-    `https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/translate?api_key=${API_KEY}&s=${weather}`,
+    `https://api.giphy.com/v1/gifs/translate?api_key=${API_KEY}&s=${weather}`,
     {
       mode: "cors",
     }
